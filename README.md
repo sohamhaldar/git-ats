@@ -5,7 +5,7 @@
 
 ## 📝 Overview
 
-**gitats** is a production-ready FastAPI web app that uses AI to turn your GitHub repositories into polished, ATS-friendly resume content. It analyzes your codebase, extracts technical achievements, and generates impactful resume sections. Designed for engineers at all levels, gitats supports multiple AI providers and is fully containerized for easy deployment.
+**git-ats** is a production-ready FastAPI web app that uses AI to turn your GitHub repositories into polished, ATS-friendly resume content. It analyzes your codebase, extracts technical achievements, and generates impactful resume sections. Designed for engineers at all levels, gitats supports multiple AI providers and is fully containerized for easy deployment.
 
 
 
@@ -55,8 +55,8 @@ Into:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/sohamhaldar/gitats.git
-   cd gitats
+   git clone https://github.com/sohamhaldar/git-ats.git
+   cd git-ats
    ```
 2. **Set Up Virtual Environment:**
    ```bash
@@ -177,34 +177,7 @@ gitats generates structured JSON output optimized for ATS systems and easy integ
 - **How do I deploy in production?**  
   Use the provided Docker setup with environment variables configured.
 - **How do I report bugs or suggest features?**  
-  Open an issue on [GitHub Issues](https://github.com/sohamhaldar/gitats/issues).
-- **How do I contribute?**  
-  See the [Contributing](#contributing) section below.
-
-
-
-## 🤝 Contributing
-
-We welcome contributions! To get started:
-
-1. Fork and clone the repository.
-2. Create a feature branch: `git checkout -b feature/your-feature`.
-3. Implement and test your changes locally.
-4. Push to your fork and submit a pull request.
-
-**Guidelines:**
-
-- Follow PEP 8 for Python code.
-- Include tests for new features (use pytest).
-- Update documentation as needed.
-- Be respectful and inclusive (see [Code of Conduct](CODE_OF_CONDUCT.md)).
-
-
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
+  Open an issue on [GitHub Issues](https://github.com/sohamhaldar/git-ats/issues).
 
 
 ## 🙌 Acknowledgments
